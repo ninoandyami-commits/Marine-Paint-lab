@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marine Paint Lab — Boat Gelcoat & Paint (Fort Myers, FL)</title>
+  <meta name="description" content="Marine Paint Lab repairs gelcoat, fixes fiberglass, and restores boat paint in Fort Myers, Cape Coral, and Naples, FL. Get a free estimate." />
+  <style>
+    :root {
+      --bg: #0b1c2b;
+      --card: #0f2740;
+      --text: #eaf2f8;
+      --muted: #a7c4d9;
+      --accent: #4fd1c5;
+      --accent-2: #5aa9e6;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: radial-gradient(1200px 800px at 20% 10%, #113456 0%, var(--bg) 50%) fixed;
+    }
+    header {
+      padding: 48px 20px 16px;
+      text-align: center;
+    }
+    .badge { 
+      display: inline-block; 
+      background: rgba(255,255,255,0.08); 
+      color: var(--muted); 
+      padding: 6px 10px; 
+      border-radius: 999px; 
+      font-size: 14px;
+      letter-spacing: .2px;
+    }
+    h1 {
+      margin: 12px auto 8px;
+      font-size: clamp(28px, 6vw, 44px);
+      line-height: 1.1;
+      letter-spacing: .2px;
+    }
+    .sub {
+      color: var(--muted);
+      font-size: 16px;
+      margin-bottom: 24px;
+    }
+    .cta {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 12px;
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      color: #062030;
+      font-weight: 700;
+      text-decoration: none;
+      box-shadow: 0 8px 30px rgba(80, 200, 220, 0.25);
+    }
+    main { padding: 20px; }
+    .wrap { max-width: 980px; margin: 0 auto; }
+    .card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 22px;
+      box-shadow: 0 10px 45px rgba(0,0,0,0.25);
+    }
+    section { margin: 28px 0; }
+    h2 { margin: 0 0 12px; font-size: 22px; }
+    ul { padding-left: 18px; margin: 0; }
+    .grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    }
+    .muted { color: var(--muted); }
+    .footer { text-align: center; padding: 28px 12px 40px; color: var(--muted); font-size: 14px; }
+    /* form */
+    form {
+      display: grid;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    label { font-size: 14px; color: var(--muted); }
+    input, textarea, button {
+      width: 100%;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: rgba(255,255,255,0.03);
+      color: var(--text);
+      padding: 12px 12px;
+      border-radius: 10px;
+      font-size: 15px;
+    }
+    textarea { resize: vertical; min-height: 120px; }
+    button {
+      background: linear-gradient(90deg, var(--accent), var(--accent-2));
+      color: #062030;
+      font-weight: 800;
+      cursor: pointer;
+      border: none;
+      box-shadow: 0 8px 30px rgba(80, 200, 220, 0.25);
+    }
+    .cols-2 {
+      display: grid;
+      gap: 14px;
+      grid-template-columns: 1fr 1fr;
+    }
+    @media (max-width: 640px) {
+      .cols-2 { grid-template-columns: 1fr; }
+    }
+    .pill {
+      display:inline-block;
+      padding:6px 10px;
+      background:rgba(255,255,255,.06);
+      border:1px solid rgba(255,255,255,.09);
+      border-radius:999px;
+      font-size:13px;
+      color:var(--muted);
+      margin-right:6px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="badge">Marine Paint Lab — Fort Myers, FL</div>
+    <h1>Boat Gelcoat, Fiberglass Repair & Paint</h1>
+    <p class="sub">We bring boats back to life. Scratches, sun fade, chips, or dull color — we fix it and make it shine.</p>
+    <a class="cta" href="#estimate">Get a Free Estimate</a>
+    <div style="margin-top:10px" class="muted">Serving Fort Myers, Cape Coral & Naples</div>
+  </header>
+
+  <main>
+    <div class="wrap grid">
+      <section class="card">
+        <h2>What we do</h2>
+        <ul>
+          <li>Gelcoat repair & accurate color match</li>
+          <li>Fiberglass patching & small hull fixes</li>
+          <li>Full paint & touch-ups</li>
+          <li>Buff, polish & shine</li>
+        </ul>
+        <div style="margin-top:12px">
+          <span class="pill">Detail-focused</span>
+          <span class="pill">Fast & friendly</span>
+          <span class="pill">Marine finishes only</span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Why choose us</h2>
+        <ul>
+          <li>Clean prep and smooth finish</li>
+          <li>Honest quotes and clear timelines</li>
+          <li>We treat your boat like it’s ours</li>
+          <li>Local pros you can reach by email</li>
+        </ul>
+      </section>
+
+      <section class="card" id="estimate">
+        <h2>Request a Free Estimate</h2>
+        <p class="muted" style="margin-top:0">Tell us about your boat and the work you need. We usually respond within one business day.</p>
+        <form action="https://formsubmit.co/marinepaintlab@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Marine Paint Lab — New Estimate Request" />
+          <input type="hidden" name="_captcha" value="false" />
+          <div class="cols-2">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" type="text" name="name" required />
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" required />
+            </div>
+          </div>
+          <div>
+            <label for="boat">Boat (make / model / size)</label>
+            <input id="boat" type="text" name="boat" required />
+          </div>
+          <div>
+            <label for="message">What do you need?</label>
+            <textarea id="message" name="message" placeholder="Gelcoat repair, fiberglass patch, paint touch-up, etc." required></textarea>
+          </div>
+          <button type="submit">Send Request</button>
+        </form>
+        <p style="margin-top:10px" class="muted">
+          Or email us directly: <a style="color:var(--accent-2)" href="mailto:marinepaintlab@gmail.com?subject=Free%20Boat%20Estimate">marinepaintlab@gmail.com</a>
+        </p>
+      </section>
+
+      <section class="card">
+        <h2>Before & After</h2>
+        <p class="muted">Add two photos here (side by side). Replace this card with your own images when you publish.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    © <span id="year"></span> Marine Paint Lab — Fort Myers, FL · Serving Cape Coral & Naples
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
